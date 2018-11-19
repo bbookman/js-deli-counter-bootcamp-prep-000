@@ -1,6 +1,8 @@
 line = ["Betty","Wilma"]
 
 function currentLine(lineOfPeople){
+  returnString = ""
+  
     
 }//currentLine
 
