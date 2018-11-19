@@ -7,11 +7,6 @@ function currentLine(lineOfPeople){
       if (lineOfPeople.length == 1){
         returnString += (i + 1) + "." + lineOfPeople[i] + " is the last person in line"
         lineOfPeople.pop()
-      } else if (lineOfPeople.length > 1)   {
-      
-        returnString += (i + 1) + "." + lineOfPeople[i] + ", "
-        lineOfPeople.shift()
-        
       } else {
           returnString = "The line is currently empty."
       }
