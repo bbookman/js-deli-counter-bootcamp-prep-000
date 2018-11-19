@@ -21,7 +21,7 @@ function currentLine(lineOfPeople){
     return "The line is currently empty."
     
    } else {
-      for (var i =0; i < lineOfPeople.length; i++){
+      for (var i =0; i <= lineOfPeople.length; i++){
         if ((i - 1) < lineOfPeople.length){
           returnString += (i + 1) + ". " + lineOfPeople[i] + ", "
         } else {
