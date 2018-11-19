@@ -11,6 +11,7 @@ function currentLine(lineOfPeople){
     }
   }
   
+  return returnString
     
 }//currentLine
 
