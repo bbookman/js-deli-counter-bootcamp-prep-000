@@ -22,8 +22,11 @@ function currentLine(lineOfPeople){
     
    } else {
       for (var i =0; i < lineOfPeople.length; i++){
-        
+        if ((i - 1) < lineOfPeople.length){
           returnString += (i + 1) + ". " + lineOfPeople[i] + ", "
+        } else {
+          returnString += (i + 1) + ". " + lineOfPeople[i]
+        }
     }
   }
   
