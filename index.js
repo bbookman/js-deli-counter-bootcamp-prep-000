@@ -22,7 +22,8 @@ function currentLine(lineOfPeople){
     
    } else {
       for (var i =0; i < lineOfPeople.length; i++){
-      returnString += (i + 1) + ". " + lineOfPeople[i] + ", "
+        
+          returnString += (i + 1) + ". " + lineOfPeople[i] + ", "
     }
   }
   
