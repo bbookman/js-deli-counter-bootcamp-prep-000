@@ -4,8 +4,12 @@ function currentLine(lineOfPeople){
   returnString = "The line is currently: "
   if (lineOfPeople.length == 0){
     
-    return ""
-  }//if
+    return "The line is currently empty."
+  } else {
+    for (var i =0; i < lineOfPeople.length; i++{
+      returnString += str(i) + ". " + lineOfPeople[i]
+    }
+  }
   
     
 }//currentLine
